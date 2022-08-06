@@ -1,0 +1,67 @@
+/*=============================================
+    #Variables
+=============================================*/
+
+/**
+ * TABLE OF CONTENTS
+ * 
+ * COLORS
+ * Brand colors...................These are the main brand colors. They will be used the most
+ * Neutral colors.................White and black, gray scale, secondary colors.
+ * Utility colors.................Other colors to represent states: info, warning, success, etc.
+ * 
+ * TYPOGRAPHY
+ * Font families..................The fonts used in the design system.
+ * Font weights...................Font weights
+ * Sizes..........................Font sizing for body text, paragraphs, inputs
+ * Heading sizes..................Font sizing for page headings
+ *
+ * BREAKPOINTS
+ * Breakpoints....................Global responsive breakpoints definitions.
+ *
+ * SPACING
+ * Spacing........................Global fixed set of spacing variables
+ */
+
+/*=============================================
+=                  Colors                     =
+=============================================*/
+
+/* brand Colors */
+$green: #5ece7b;
+$green-light: #9ee2b0;
+
+$dark: #1d1f22;
+$dark-light: #737680;
+
+/* Neutral Colors */
+$grey: #a3a5ad;
+$grey-light: #bebfc4;
+
+$white: #fff;
+$white-dark: #f1f2f3;
+
+/* Utility colors */
+$red: #f2a58d;
+$red-light: #fcede8;
+
+$blue: #67c6fa;
+$blue-light: #e1f4fe;
+/*=====  End of Colors  ======*/
+
+/*=============================================
+=            Typography            =
+=============================================*/
+
+/**
+ *
+ * 1) The playfair font. We'll use this for headings mostly.
+ *     https://fonts.google.com/specimen/Playfair+Display
+ *
+ * 2) The raleway font. We'll use this for the body text.
+ *     https://fonts.google.com/specimen/Raleway
+ */
+
+/* Font Families */
+$playfair: 'Playfair', serif; /* 1 */
+$raleway: 'Raleway', 'HelveticaNeue', 'Helvetica', 'Arial', sans-serif; /* 2 */
