@@ -95,6 +95,7 @@
  * styles for components.
  *
  */
-.dse-panel__container {
+.dse-panel-container {
   display: flex;
+  position: absolute;
 }
